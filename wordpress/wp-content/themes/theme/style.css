@@ -1,0 +1,13 @@
+/*
+Theme Name: Mon thème
+Theme URI: https://wordpress.org/themes/theme/
+*/
+
+body {
+    background-color: rgb(12, 108, 163);
+}
+
+#footer {
+    background-color: black;
+    color: white;
+}
