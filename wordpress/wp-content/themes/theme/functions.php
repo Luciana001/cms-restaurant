@@ -7,7 +7,7 @@ function theme_supports () {    //fct qui definit ce que mon theme supporte (img
     register_nav_menu('header','En tête du menu');
     register_nav_menu('footer','Pied de page');
 
-    add_image_size('post-thumbnail', 350, 215, true);
+    add_image_size('card-header', 350, 215, true);
 };
 //============================== Equivalent des balises Link du head =============================================================================
 function theme_register_assets () {
@@ -16,6 +16,7 @@ function theme_register_assets () {
     wp_register_script('popper','https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js',[],false,true);
     wp_enqueue_style('bootstrap');
     wp_enqueue_script('bootsrap');
+    wp_enqueue_style('mystyle', get_template_directory_uri().'/style.css');
 };
 //============================= Title ===========================================================================================================
 function theme_title_separator () {

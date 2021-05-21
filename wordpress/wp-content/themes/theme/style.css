@@ -1,11 +1,49 @@
 /*
-Theme Name: Mon thème
-Theme URI: https://wordpress.org/themes/theme/
+*Theme Name: Mon thème
+*Theme URI: https://wordpress.org/themes/theme/
 */
-
-body {
-    background-color: rgb(12, 108, 163);
+/* section {
+    position: fixed;
+} */
+/*
+#banner-navbar{
+    position: absolute;
+    display: flex;
 }
+#banner-img{
+    position: absolute;
+}
+*/
+#title {
+    position: absolute;
+    color: #fff;
+    border: 2px solid black;
+}
+
+#card-list {
+    position: relative;
+} 
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+    background-color: white;
+    /* z-index: 1; */
+    opacity: 1;  
+    /* position: absolute;  */
+} 
+
+#bck-card {
+    position: absolute;
+    background-image:url(http://localhost/wp-content/uploads/2021/05/burger-party.png);
+    background-size: cover;
+    width : 100%;
+	height: 100%;
+    /* z-index: -1; */
+    opacity: 0.1;
+    background-color:#F5F5F5;
+    
+}
+
 
 #footer {
     background-color: black;

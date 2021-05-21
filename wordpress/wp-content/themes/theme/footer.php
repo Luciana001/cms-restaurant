@@ -1,4 +1,5 @@
-    </div>
+        </div>
+    </section>
     <!-- <footer>
     <?php
     // wp_nav_menu([
