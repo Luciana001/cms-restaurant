@@ -5,11 +5,14 @@
 /* section {
     position: fixed;
 } */
-/*
-#banner-navbar{
+
+.navbar{
     position: absolute;
     display: flex;
+    z-index: 1;
+    font: #fff;
 }
+/*
 #banner-img{
     position: absolute;
 }
@@ -17,20 +20,35 @@
 #title {
     position: absolute;
     color: #fff;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 #card-list {
     position: relative;
+    top: 50px;
+   
 } 
 .card-horizontal {
+    position: relative;
     display: flex;
     flex: 1 1 auto;
     background-color: white;
-    /* z-index: 1; */
+    /* z-index: 1;  */
     opacity: 1;  
     /* position: absolute;  */
+ 
 } 
+#banner {
+    position: relative;
+    z-index: -1;
+}
+
+#hach-white {
+    position: absolute;
+    z-index: 1;
+    bottom: -10px;
+    right:0px;
+}
 
 #bck-card {
     position: absolute;
@@ -38,14 +56,29 @@
     background-size: cover;
     width : 100%;
 	height: 100%;
-    /* z-index: -1; */
+    z-index: -1; 
     opacity: 0.1;
     background-color:#F5F5F5;
     
 }
 
 
-#footer {
-    background-color: black;
-    color: white;
+#footer-xl {
+    display: flex;
+    background-color: #292929;
+    color:#FFF;
+}
+footer .card {
+    display: flex;
+    background-color: #292929;
+    color:#FFF;
+    border: none;
+}
+
+#footer-xs {
+    background-color: #292929;
+    color:#FFF;
+}
+#footer-img {
+    background-color: #FFF;
 }
